@@ -1,0 +1,52 @@
+
+html{
+   overflow: hidden;
+   background-color: #656565;
+}
+img{
+    width: 250px;
+    
+}
+header{
+    background-color: #B3B3B3;
+    padding: 15px;
+    border: solid 2px black;
+}
+
+container div {
+    height: 480px;
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.left{
+    float: left;
+    width: 25%;
+    background-image: url("./assets/img/PMC.png");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+.right{
+    float: right;
+    width: 25%;
+}
+canvas{
+    border-radius: 25px;
+    width: 300px;
+    background-color: mintcream;
+    
+   
+}
+.center{
+    width: 40.9%;
+    margin:15px 10px 0 10px ;
+    background-image: url("http://192.168.8.3:5556/stream");
+    background-size: cover;
+    background-position: center;
+}
